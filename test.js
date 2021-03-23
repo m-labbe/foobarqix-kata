@@ -32,4 +32,10 @@ describe('FooBarQix', () => {
     it('should return Qix for 49', () => {
         expect(compute(49)).toEqual('Qix')
     })
+
+    it('should log 100 lines', () => {
+        console.log = jest.fn()
+        foobarqix()
+        expect(console.log).toHaveBeenCalledTimes(100)
+    })
 });
