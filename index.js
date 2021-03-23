@@ -21,6 +21,13 @@ const compute = (input) => {
     return output === '' ? input : output
 }
 
+const foobarqix = () => {
+    for (let i=1; i < 101; i++) {
+        console.log(compute(i))
+    }
+}
+
 module.exports = {
-    compute
+    compute,
+    foobarqix,
 }
