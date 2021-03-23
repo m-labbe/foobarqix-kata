@@ -9,4 +9,8 @@ describe('FooBarQix', () => {
     it('should return Foo for 3', () => {
         expect(compute(3)).to.equal('Foo')
     })
+
+    it('should return Foo for 6', () => {
+        expect(compute(6)).to.equal('Foo')
+    })
 });
