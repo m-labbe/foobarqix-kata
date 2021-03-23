@@ -1,6 +1,7 @@
 const mapToString = new Map([
     [3, 'Foo'],
     [5, 'Bar'],
+    [7, 'Qix'],
 ])
 
 const compute = (input) => {
