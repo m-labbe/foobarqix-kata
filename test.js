@@ -21,4 +21,8 @@ describe('FooBarQix', () => {
     it('should return Bar for 10', () => {
         expect(compute(10)).to.equal('Bar')
     })
+
+    it('should return FooBar for 15', () => {
+        expect(compute(15)).to.equal('FooBar')
+    })
 });
