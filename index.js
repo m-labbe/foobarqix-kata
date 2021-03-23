@@ -1,5 +1,5 @@
-const compute = (integer) => {
-    return integer
+const compute = (input) => {
+    return input
 }
 
 module.exports = {
