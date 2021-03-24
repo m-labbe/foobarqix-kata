@@ -2,9 +2,11 @@
 
 Write a program that prints numbers from 1 to 100, one number per line. For each printed number, use the following rules:
 
-- If the number is divisible by 3 or contains 3, print "Foo"
-- If the number is divisible by 5 or contains 5, print "Bar"
-- If the number is divisible by 7 or contains 7, print "Qix"
+- If the number is divisible by 3, write "Foo" instead of the number
+- If the number is divisible by 5, add "Bar"
+- If the number is divisible by 7, add "Qix"
+- For each digit 3, 5, 7 contained in the number add "Foo", "Bar", "Qix" in the order that the digit appears
+- If the number is not divisible by or does not contain 3, 5, or 7 write the number
 
 ## Examples
 | Expected Output | Description|
@@ -14,6 +16,7 @@ Write a program that prints numbers from 1 to 100, one number per line. For each
 |`7 => QixQix`| Divisible by 7 and contains 7|
 |`13 => Foo`| Contains 3|
 |`15 => FooBarBar`| Divisible by 3 and 5 and contains 5|
+| `33 => FooFooFoo` | Divisible by 3 and contains 3 twice |
 
 ## Practice Test-Driven Development
 
